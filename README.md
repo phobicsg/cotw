@@ -1,5 +1,9 @@
 # cotw
-Problem Definition : COTW have a list of places names that are in English which they would like to translate them into various native languages . They have published a list of priorities that they would like to translate 
+Problem Definition : COTW have a list of places names that are in English which they would like to translate them into various native languages . They have published a list of priority languages and places that they would like to translate 
+
+https://translator-client-qa.taethni.com/2021-indigitous-hackathon
+
+
 
 Method : Using Google map API to search for the translated name. Google map platform supports a number of languages that COTW desires to translate into https://developers.google.com/maps/faq
 
