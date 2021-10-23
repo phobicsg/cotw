@@ -1,0 +1,64 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "धरमपानी",
+               "short_name" : "धरमपानी",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "वन्दीपुर",
+               "short_name" : "वन्दीपुर",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "तनहुँ",
+               "short_name" : "तनहुँ",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "गण्डकी प्रदेश",
+               "short_name" : "गण्डकी प्रदेश",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "नेपाल",
+               "short_name" : "NP",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "धरमपानी, वन्दीपुर, नेपाल",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 27.9111542,
+                  "lng" : 84.44237710000002
+               },
+               "southwest" : {
+                  "lat" : 27.842681,
+                  "lng" : 84.3464183
+               }
+            },
+            "location" : {
+               "lat" : 27.8755243,
+               "lng" : 84.39099910000002
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 27.9111542,
+                  "lng" : 84.44237710000002
+               },
+               "southwest" : {
+                  "lat" : 27.842681,
+                  "lng" : 84.3464183
+               }
+            }
+         },
+         "place_id" : "ChIJT4Icw6ADlTkRjzDLsruloIU",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      }
+   ],
+   "status" : "OK"
+}
