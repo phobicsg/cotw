@@ -3,7 +3,7 @@ Problem Definition : COTW have a list of places names that are in English which 
 
 https://translator-client-qa.taethni.com/2021-indigitous-hackathon
 
-
+*See input folder for example of places that requires translation
 
 Method : Using Google map API to search for the translated name. Google map platform supports a number of languages that COTW desires to translate into https://developers.google.com/maps/faq
 
