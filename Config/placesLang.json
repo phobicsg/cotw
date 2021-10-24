@@ -1,0 +1,26 @@
+[
+  {"name":"Azerbaijan", "languages":["hy", "az", "ru"], "countryCode":"AZE"},
+  {"name":"Bangladesh", "languages":["bn"], "countryCode":"BGD"},
+  {"name":"Bhutan", "languages":["dz","ne"], "countryCode":"BTN"},
+  {"name":"Cambodia", "languages":["km","fr"], "countryCode":"KHM"},
+  {"name":"Ecuador", "languages":["es"], "countryCode":"ECU"},
+  {"name":"Egypt", "languages":["ar","fr"], "countryCode":"EGY"},
+  {"name":"Ethiopia", "languages":["am","so"], "countryCode":"ETH"},
+  {"name":"India", "languages":["as", "bn", "fr", "gu", "hi", "kn", "ks", "ml","mr", "ne", "or", "pt", "pa", "sd", "ta", "te", "ur"], "countryCode":"IND"},
+  {"name":"Indonesia", "languages":["nl", "id", "jv"], "countryCode":"IDN"},
+  {"name":"Jordan", "languages":["ar"], "countryCode":"JOR"},
+  {"name":"Kazakhstan", "languages": ["kk", "ru"], "countryCode":"KAZ"},
+  {"name":"Kyrgyzstan", "languages": ["kk", "ru", "uz"], "countryCode": "KGZ"},
+  {"name":"Laos", "languages": ["fr", "lo"], "countryCode":"LAO"},
+  {"name":"Nepal", "languages": ["ne"], "countryCode":"NPL"},
+  {"name":"Pakistan", "languages": ["pa", "sd", "ur"], "countryCode":"PAK"},
+  {"name":"Spain", "languages": ["eu", "ca", "gl", "es"], "countryCode":"ESP"},
+  {"name":"Sri Lanka", "languages": ["si", "ta"], "countryCode": "LKA"},
+  {"name":"Sudan", "languages": ["ar"], "countryCode":"SDN"},
+  {"name":"Tanzania, United Republic of", "languages": ["ar", "sw"], "countryCode": "TZA"},
+  {"name":"Thailand", "languages": ["th"], "countryCode":"THA"},
+  {"name":"Togo", "languages": ["fr", "ha"], "countryCode": "TGO"},
+  {"name":"Uganda", "languages": ["ar", "sw"],"countryCode": "UGA"},
+  {"name":"Vietnam", "languages": ["km", "zh-CN", "fr", "vi"], "countryCode":"VNM"}
+
+]
