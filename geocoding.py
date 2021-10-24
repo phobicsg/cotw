@@ -55,11 +55,11 @@ def getReverseGeocoding(area,country,countryCode, lang):
             print("no suitable match is found. Verify Location by GPS")
             return "",""
 
-def populatingTranslation(listOfEntries,baseLangCode,translatedLangCode, countryCode):
+def populatingTranslation(listOfEntries,country,baseLangCode,translatedLangCode, countryCode):
     translatedList=[]
     for place in listOfEntries:
         english_name = place[baseLangCode]
-        translatedName, latlng =getReverseGeocoding(english_name,countryCode,translatedLangCode)
+        translatedName, latlng =getReverseGeocoding(english_name,country,countryCode,translatedLangCode)
         place[translatedLangCode]=translatedName
         place["laglng"]=latlng
         translatedList.append(place)
@@ -71,6 +71,7 @@ def extractingListByRange(listOfEntries, start,end):
     for i in range(start,end):
         extractedList.append(listOfEntries[i])
     return extractedList
+
 
 
 
