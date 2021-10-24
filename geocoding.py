@@ -51,6 +51,9 @@ def getReverseGeocoding(area,country,countryCode, lang):
                 else:
                     print("Result return is not in the right country. Verify location by GPS")
                     return "",""
+            else:
+                print("Country not found. Likely disputed territory")
+                return "",""
         else:
             print("no suitable match is found. Verify Location by GPS")
             return "",""
@@ -71,7 +74,6 @@ def extractingListByRange(listOfEntries, start,end):
     for i in range(start,end):
         extractedList.append(listOfEntries[i])
     return extractedList
-
 
 
 
