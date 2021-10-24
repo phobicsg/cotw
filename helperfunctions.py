@@ -41,11 +41,15 @@ def readCSVFile(filename):
         return listOfEntries
 
 
-def writeCSVFile(filename):
-    with open(filename,newline="") as csvFile:
-        reader = csv.DictReader(csvFile)
-        listOfEntries = list(row for row in reader)
-        return listOfEntries
+def writeCSVFile(filename,writeObj):
+    with open(filename,"w",encoding="utf-8") as csvFile:
+        header=writeObj[0].keys()
+        writer = csv.DictWriter(csvFile,header)
+        writer.writeheader()
+        writer.writerows(writeObj)
+
+       
+        
 
 def configureLoggingBasic():
   logging.basicConfig(filename="LOGFILE", encoding="utf-8",level=logging.DEBUG, format="%(asctime)s -%(levelname)s- %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p")
