@@ -6,16 +6,21 @@ from datetime import datetime
 import csv
 import time
 import logging
+from constants import *
 
 
 def writeToJSONFile(writeObj, filename,operationMode="w"):
-    logging.info("Starting write data to : %s", filename)  
     print("Starting write data to : %s" % filename)
     with open (filename,operationMode) as file:
         file.write(json.dumps(writeObj,indent=2))
         file.close()
-    logging.info("Completed writing data to : %s" ,filename)
     print("Completed writing data to : %s" % filename)
+
+def readJSONFile(filepath): 
+    data = open(filepath,'r')
+    data_body = json.load(data)
+    data.close()
+    return data_body
 
 
 def filterListByAttributes(objList,attributes,value,isValue):
@@ -48,10 +53,3 @@ def writeCSVFile(filename,writeObj):
         writer.writeheader()
         writer.writerows(writeObj)
 
-       
-        
-
-def configureLoggingBasic():
-  logging.basicConfig(filename="LOGFILE", encoding="utf-8",level=logging.DEBUG, format="%(asctime)s -%(levelname)s- %(message)s", datefmt="%m/%d/%Y %I:%M:%S %p")
-
-configureLoggingBasic()
